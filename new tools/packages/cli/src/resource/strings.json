@@ -1,0 +1,42 @@
+{
+  "account.login.azure": "Successfully signed into Azure.",
+  "account.login.azure.fail": "Unable to sign into Azure.",
+  "account.logout.azure": "Successfully signed out of Azure.",
+  "account.logout.azure.fail": "Unable to sign out of Azure.",
+  "account.login.m365": "Successfully signed into Microsoft 365.",
+  "account.login.m365.fail": "Unable to sign into Microsoft 365.",
+  "account.logout.m365": "Successfully signed out of Microsoft 365.",
+  "account.logout.m365.fail": "Unable to sign out of Microsoft 365.",
+  "account.show.azure": "Your Azure account is: %s. Your subscriptions are: %s",
+  "account.show.m365": "Your Microsoft 365 account is: %s.",
+  "account.show.info": "Your %s account is: %s.",
+  "command": {
+    "doctor": {
+      "account": {
+        "SideLoadingDisabled": "Your Microsoft 365 tenant admin hasn't enabled custom app upload permission for your account. You can't install your app to Teams!",
+        "NotSignIn": "You've not signed into your Microsoft 365 account yet. Please use teamsapp auth login command to sign into your Microsoft 365 account.",
+        "SignInSuccess": "Microsoft 365 Account (%s) is signed in and custom app upload permission is enabled."
+      },
+      "node" : {
+        "NotFound": "Cannot find Node.js. Node.js used for developing Teams apps with JavaScript or TypeScript using Teams Toolkit for Visual Studio Code. Visit https://nodejs.org to install the LTS version.",
+        "NotSupported": "Node.js (%s) is not the officially supported version (%s). Your project may continue to work but we recommend to install the supported version.",
+        "Success": "Node.js version (%s) is installed."
+      },
+      "dotnet" : {
+        "NotFound": "Cannot find .NET Core SDK. .NET Core SDK is used for developing Teams app in C# using Teams Toolkit for Visual Studio. Visit https://dotnet.microsoft.com/en-us/download to install the LTS version.",
+        "NotSupported": ".NET Core SDK (%s) is not the officially supported version (%s).",
+        "Success": ".NET Core SDK version (%s) is installed."
+      },
+      "func" : {
+        "NotFound": "Cannot find Azure Functions Core Tools.",
+        "NotSupported": "Azure Functions Core Tools (%s) is not the officially supported version (%s).",
+        "Success": "Azure Functions Core Tools version (%s) is installed."
+      },
+      "cert" : {
+        "NotFound": "Cannot find local Certificate.",
+        "FoundNotTrust": "Local Certificate is found but not trusted.",
+        "Success": "Local Certificate is found and is trusted."
+      }
+    }
+  }
+}
